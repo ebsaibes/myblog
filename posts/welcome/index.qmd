@@ -1,7 +1,6 @@
 ---
 title: "Welcome To My Blog"
-author: "Tristan O'Malley"
-date: "2023-09-07"
+date: "2023-09-27"
 categories: [news]
 ---
 
