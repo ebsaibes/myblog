@@ -1,11 +1,13 @@
 ---
-title: "Welcome To My Blog"
+title: "Welcome"
 date: "2023-09-27"
+title-block-style: default
 categories: [news]
 ---
 
-This is the first post in a Quarto blog. Welcome!
-
 ![](thumbnail.jpg)
 
-Since this post doesn't specify an explicit `image`, the first image in the post will be used in the listing page of posts.
+# What you can expect
+I intend this blog to be mostly a technical blog on my journey through the rest of my career. You can expect to see articles about topics in Machine Learning, .NET, C#, python and other technical topics.  
+
+I’m not limiting the posts strictly technical topics. I have many other roles in my life besides being a software engineer and consultant. I’m a father of three, I’m a husband, I run, I build things, I fix things, I break things, I like cars the list goes on. You might see these things sprinkled in.

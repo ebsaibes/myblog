@@ -7,9 +7,9 @@ about:
       href: https://linkedin.com
 ---
 
-dad, husband, runner, handyman and engineer. 
+I'm a dad, husband, runner, handyman and engineer. 
 
-I’ve been a software engineer for over 12 years. My career started in semiconductor manufacturing where I developed and maintained manufacturing automation systems. It was challenging and fun. Eventually I found my way into software consulting. 
+I’ve been a software engineer for over 12 years. My career started in semiconductor manufacturing where I developed and maintained manufacturing automation systems. Eventually I found my way into software consulting. 
 
 I’ve worked on several .NET projects in a variety of industries and varying solution type. Some projects highlights include building and improving web applications, developing identity solutions, event-based systems, modernizing systems, and data engineering. 
 
