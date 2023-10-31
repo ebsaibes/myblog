@@ -1,1 +1,1 @@
-Sitemap: https://github.com/ebsaibes/myblog/sitemap.xml
+Sitemap: https://www.emilbsaibes.com/sitemap.xml
