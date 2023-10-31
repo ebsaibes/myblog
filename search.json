@@ -1,17 +1,24 @@
 [
   {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
+    "objectID": "posts/2023-10-31/index.html",
+    "href": "posts/2023-10-31/index.html",
+    "title": "Installing Python and starting a project using Jupyter Notebooks",
     "section": "",
-    "text": "I’m a dad, husband, runner, handyman and engineer.\nI’ve been a software engineer for over 12 years. My career started in semiconductor manufacturing where I developed and maintained manufacturing automation systems. Eventually I found my way into software consulting.\nI’ve worked on several .NET projects in a variety of industries and varying solution type. Some projects highlights include building and improving web applications, developing identity solutions, event-based systems, modernizing systems, and data engineering.\nAway from my keyboard, you’ll usually find me running, hanging out with my family, fixing things around the house, and building things."
+    "text": "Starting from the Beginning\nMy grandfather was a life long learner, he didn’t own a computer until later in life and when we got one he dove deep into understanding how it worked. You could say he started from the beginning. He often would call me with or email me with questions that were far beyond my understanding at the time and now looking back I think he was trying to challenge me to learn more as well as seek understanding for himself.\nMy dad is also a life long learner and recently asked me about learning to write programs. I gave him a book to start learning python. His questions about installation partly inspired this post.\nSo like my grandfather and my dad, I’m starting blogging from the beginning with installing python. I’ve installed python half a dozen times on different machines so here’s some instructions to get python up and running on your machine.\n\n\nInstallation Steps\nThere are a few different ways to get started using Python on Windows. The two I’ve used to install Python:\n\nInstalling Anaconda (which includes Python library and many popular packages, as well as some cool data science tools)\nInstalling Python using a stand-alone installer from Python.org\n\nIn this post, I’ll stick with installing the stand-alone package.\n\nStep 1: Download the package\nFirst, go to https://www.Python.org/downloads/windows/ and download the latest stable version of Python. As of writing that’s version 3.12.0.\n\n\nStep 2: Install\nRun the install package. In the screenshot below notice the include Python in the system path.\n\n\n\n\n\nThis makes it easier to find when setting up your tools later. Starting Python from the command line is also easier. If you change your installation path just note that you should still add it to the system path.\n\n\nStep 3: Test\nMake sure that Python is installed properly. The easiest way is to check the version by typing python -V into the command line of your choice.\n\n\n\n\n\n\n\nStep 4: Install Jupyter Notebooks\nLearning a new programming language comes with learning a new ecosystem of tools and libraries. One that is invaluable is Jupyter Notebooks. See below for a brief description of the tool’s main features\nOnce you’ve verified Python is installed. You can use pip to install Jupyter Lab.\npip install jupyterlab\nNotebooks can be used within the browser without any other tool or you can add an extension to Visual Studio Code to run them in VS Code. I alternate between the two but lately have been tending to spend more time in Visual Studio Code.\n\n\nStep 5: Start Jupyterlab and get coding\nGo to the terminal and type in jupyter lab\nAfter it launches open a new notebook and get coding.\n\n\n\nUsing Notebooks\nA notebook is organized as a series of blocks. Each block can either be executable code or just text making it easy to separate executable code from notes about that code in the same file.\nThe notebook can be executed all at once. The order it executes is top-down. OR you can run each block individually. The result of a code block is displayed directly below the block giving you immediate feedback. You can also reference blocks that have been executed before. This gives you the ability to define variables and depend on results from previous code blocks. Here’s an example:\n\n\n\n\n\nNot only do Notebooks ease the learning process but they are used in professional projects so it’s beneficial to learn to use and get comfortable with it. As you get more comfortable with the language and the tool you can make it more interactive."
   },
   {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Emil Bsaibes",
     "section": "",
-    "text": "Welcome\n\n\n\n\n\n\n\nnews\n\n\n\n\n\n\n\n\n\n\n\nSep 27, 2023\n\n\n\n\n\n\nNo matching items"
+    "text": "Installing Python and starting a project using Jupyter Notebooks\n\n\n\n\n\n\n\npython\n\n\njupyter\n\n\ngetting started\n\n\n\n\n\n\n\n\n\n\n\nOct 31, 2023\n\n\n\n\n\n\n  \n\n\n\n\nWelcome\n\n\n\n\n\n\n\nnews\n\n\n\n\n\n\n\n\n\n\n\nSep 27, 2023\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "I’m a dad, husband, runner, handyman and engineer.\nI’ve been a software engineer for over 12 years. My career started in semiconductor manufacturing where I developed and maintained manufacturing automation systems. Eventually I found my way into software consulting.\nI’ve worked on several .NET projects in a variety of industries and varying solution type. Some projects highlights include building and improving web applications, developing identity solutions, event-based systems, modernizing systems, and data engineering.\nAway from my keyboard, you’ll usually find me running, hanging out with my family, fixing things around the house, and building things."
   },
   {
     "objectID": "posts/welcome/index.html",

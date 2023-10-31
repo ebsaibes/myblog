@@ -6,8 +6,9 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="dcterms.date" content="2023-10-31">
 
-<title>Emil Bsaibes -</title>
+<title>Emil Bsaibes - Installing Python and starting a project using Jupyter Notebooks</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -23,24 +24,22 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<script src="site_libs/quarto-listing/list.min.js"></script>
-<script src="site_libs/quarto-listing/quarto-listing.js"></script>
-<script src="site_libs/quarto-html/quarto.js"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<script src="../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -61,50 +60,19 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
-<script>
 
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-listing .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
 
-    const options = {
-      valueNames: ['listing-date','listing-title','listing-author','listing-image','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      
-      searchColumns: ["listing-date","listing-title","listing-author","listing-image","listing-description","listing-categories"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  </script>
-
-  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
-
-<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="../../styles.css">
 </head>
 
-<body class="nav-fixed">
+<body class="nav-fixed fullcontent">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
     <nav class="navbar navbar-expand-lg navbar-dark ">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container">
-    <a class="navbar-brand" href="./index.html">
+    <a class="navbar-brand" href="../../index.html">
     <span class="navbar-title">Emil Bsaibes</span>
     </a>
   </div>
@@ -115,11 +83,11 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link active" href="./index.html" rel="" target="" aria-current="page">
+    <a class="nav-link" href="../../index.html" rel="" target="">
  <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./about.html" rel="" target="">
+    <a class="nav-link" href="../../about.html" rel="" target="">
  <span class="menu-text">About</span></a>
   </li>  
   <li class="nav-item compact">
@@ -135,98 +103,108 @@ ul.task-list li input[type="checkbox"] {
     </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
+<header id="title-block-header" class="quarto-title-block default page-columns page-full">
+  <div class="quarto-title-banner page-columns page-full">
+    <div class="quarto-title column-body">
+      <h1 class="title">Installing Python and starting a project using Jupyter Notebooks</h1>
+                                <div class="quarto-categories">
+                <div class="quarto-category">python</div>
+                <div class="quarto-category">jupyter</div>
+                <div class="quarto-category">getting started</div>
+              </div>
+                  </div>
+  </div>
+    
+  
+  <div class="quarto-title-meta">
+
+      
+      <div>
+      <div class="quarto-title-meta-heading">Published</div>
+      <div class="quarto-title-meta-contents">
+        <p class="date">October 31, 2023</p>
+      </div>
+    </div>
+    
+      
+    </div>
+    
+  
+  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        
-    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(2)</span></div><div class="category" data-category="getting started">getting started <span class="quarto-category-count">(1)</span></div><div class="category" data-category="jupyter">jupyter <span class="quarto-category-count">(1)</span></div><div class="category" data-category="news">news <span class="quarto-category-count">(1)</span></div><div class="category" data-category="python">python <span class="quarto-category-count">(1)</span></div></div></div>
+    
 <!-- main -->
-<main class="content column-page-left" id="quarto-document-content">
+<main class="content quarto-banner-title-block" id="quarto-document-content">
 
 
 
 
+<section id="starting-from-the-beginning" class="level1">
+<h1>Starting from the Beginning</h1>
+<p>My grandfather was a life long learner, he didn’t own a computer until later in life and when we got one he dove deep into understanding how it worked. You could say he started from the beginning. He often would call me with or email me with questions that were far beyond my understanding at the time and now looking back I think he was trying to challenge me to learn more as well as seek understanding for himself.</p>
+<p>My dad is also a life long learner and recently asked me about learning to write programs. I gave him a book to start learning python. His questions about installation partly inspired this post.</p>
+<p>So like my grandfather and my dad, I’m starting blogging from the beginning with installing python. I’ve installed python half a dozen times on different machines so here’s some instructions to get python up and running on your machine.</p>
+</section>
+<section id="installation-steps" class="level1">
+<h1>Installation Steps</h1>
+<p>There are a few different ways to get started using Python on Windows. The two I’ve used to install Python:</p>
+<ul>
+<li><a href="https://www.anaconda.com/download">Installing Anaconda</a> (which includes Python library and many popular packages, as well as some cool data science tools)</li>
+<li><a href="https://www.Python.org/downloads/">Installing Python</a> using a stand-alone installer from Python.org</li>
+</ul>
+<p>In this post, I’ll stick with installing the stand-alone package.</p>
+<section id="step-1-download-the-package" class="level3">
+<h3 class="anchored" data-anchor-id="step-1-download-the-package">Step 1: Download the package</h3>
+<p>First, go to https://www.Python.org/downloads/windows/ and download the latest stable version of Python. As of writing that’s version 3.12.0.</p>
+</section>
+<section id="step-2-install" class="level3">
+<h3 class="anchored" data-anchor-id="step-2-install">Step 2: Install</h3>
+<p>Run the install package. In the screenshot below notice the include Python in the system path.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="install_python.jpg" class="img-fluid figure-img" alt="Installation window showing the 'add python.exe to PATH' checked"></p>
+</figure>
+</div>
+<p>This makes it easier to find when setting up your tools later. Starting Python from the command line is also easier. If you change your installation path just note that you should still add it to the system path.</p>
+</section>
+<section id="step-3-test" class="level3">
+<h3 class="anchored" data-anchor-id="step-3-test">Step 3: Test</h3>
+<p>Make sure that Python is installed properly. The easiest way is to check the version by typing <code>python -V</code> into the command line of your choice.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="pyversion.jpg" class="img-fluid figure-img" alt="Screenshot of the terminal showing the py version command"></p>
+</figure>
+</div>
+</section>
+<section id="step-4-install-jupyter-notebooks" class="level3">
+<h3 class="anchored" data-anchor-id="step-4-install-jupyter-notebooks">Step 4: Install Jupyter Notebooks</h3>
+<p>Learning a new programming language comes with learning a new ecosystem of tools and libraries. One that is invaluable is <a href="https://jupyter.org/install">Jupyter Notebooks</a>. See below for a brief description of the tool’s main features</p>
+<p>Once you’ve verified Python is installed. You can use pip to install Jupyter Lab.</p>
+<p><code>pip install jupyterlab</code></p>
+<p>Notebooks can be used within the browser without any other tool or you can add an <a href="https://code.visualstudio.com/docs/datascience/jupyter-notebooks">extension</a> to Visual Studio Code to run them in VS Code. I alternate between the two but lately have been tending to spend more time in Visual Studio Code.</p>
+</section>
+<section id="step-5-start-jupyterlab-and-get-coding" class="level3">
+<h3 class="anchored" data-anchor-id="step-5-start-jupyterlab-and-get-coding">Step 5: Start Jupyterlab and get coding</h3>
+<p>Go to the terminal and type in <code>jupyter lab</code></p>
+<p>After it launches open a new notebook and get coding.</p>
+</section>
+</section>
+<section id="using-notebooks" class="level1">
+<h1>Using Notebooks</h1>
+<p>A notebook is organized as a series of blocks. Each block can either be executable code or just text making it easy to separate executable code from notes about that code in the same file.</p>
+<p>The notebook can be executed all at once. The order it executes is top-down. OR you can run each block individually. The result of a code block is displayed directly below the block giving you immediate feedback. You can also reference blocks that have been executed before. This gives you the ability to define variables and depend on results from previous code blocks. Here’s an example:</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="jupyter_screenshot.jpg" class="img-fluid figure-img" alt="Screenshot of a simple notebook showing 3 code blocks"></p>
+</figure>
+</div>
+<p>Not only do Notebooks ease the learning process but they are used in professional projects so it’s beneficial to learn to use and get comfortable with it. As you get more comfortable with the language and the tool you can make it more interactive.</p>
 
 
+</section>
 
-<div class="quarto-listing quarto-listing-container-default" id="listing-listing">
-<div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-categories="python,jupyter,getting started" data-listing-date-sort="1698710400000" data-listing-file-modified-sort="1698791403408" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4">
-<div class="thumbnail">
-<p><a href="./posts/2023-10-31/index.html"> <p class="card-img-top"><img src="posts/2023-10-31/install_python.jpg" alt="Installation window showing the 'add python.exe to PATH' checked"  class="thumbnail-image card-img"/></p> </a></p>
-</div>
-<div class="body">
-<a href="./posts/2023-10-31/index.html">
-<h3 class="no-anchor listing-title">
-Installing Python and starting a project using Jupyter Notebooks
-</h3>
-<div class="listing-subtitle">
-
-</div>
-</a>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('python'); return false;">
-python
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('jupyter'); return false;">
-jupyter
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('getting started'); return false;">
-getting started
-</div>
-</div>
-<a href="./posts/2023-10-31/index.html">
-<div class="listing-description">
-My grandfather was a life long learner, he didn’t own a computer until later in life and when we got one he dove deep into understanding how it worked. You could say he…
-</div>
-</a>
-</div>
-<div class="metadata">
-<a href="./posts/2023-10-31/index.html">
-<div class="listing-date">
-Oct 31, 2023
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="1" data-categories="news" data-listing-date-sort="1695772800000" data-listing-file-modified-sort="1698791403408" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
-<div class="thumbnail">
-<p><a href="./posts/welcome/index.html"> <p class="card-img-top"><img src="posts/welcome/thumbnail.jpg"  class="thumbnail-image card-img"/></p> </a></p>
-</div>
-<div class="body">
-<a href="./posts/welcome/index.html">
-<h3 class="no-anchor listing-title">
-Welcome
-</h3>
-<div class="listing-subtitle">
-
-</div>
-</a>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('news'); return false;">
-news
-</div>
-</div>
-<a href="./posts/welcome/index.html">
-<div class="listing-description">
-I intend this blog to be…
-</div>
-</a>
-</div>
-<div class="metadata">
-<a href="./posts/welcome/index.html">
-<div class="listing-date">
-Sep 27, 2023
-</div>
-</a>
-</div>
-</div>
-</div>
-<div class="listing-no-matching d-none">
-No matching items
-</div>
-</div></main> <!-- /main -->
+</main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
