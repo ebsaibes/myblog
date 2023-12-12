@@ -1,19 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://www.emilbsaibes.com/posts/welcome/index.html</loc>
+    <lastmod>2023-12-12T04:31:19.883Z</lastmod>
+  </url>
+  <url>
     <loc>https://www.emilbsaibes.com/posts/2023-10-31/index.html</loc>
-    <lastmod>2023-10-31T22:45:47.146Z</lastmod>
+    <lastmod>2023-12-12T04:31:19.243Z</lastmod>
   </url>
   <url>
     <loc>https://www.emilbsaibes.com/index.html</loc>
-    <lastmod>2023-10-31T22:45:46.310Z</lastmod>
+    <lastmod>2023-12-12T04:31:18.387Z</lastmod>
   </url>
   <url>
     <loc>https://www.emilbsaibes.com/about.html</loc>
-    <lastmod>2023-10-31T22:45:45.250Z</lastmod>
+    <lastmod>2023-12-12T04:31:18.911Z</lastmod>
   </url>
   <url>
-    <loc>https://www.emilbsaibes.com/posts/welcome/index.html</loc>
-    <lastmod>2023-10-31T22:45:46.678Z</lastmod>
+    <loc>https://www.emilbsaibes.com/posts/2023-12-11/index.html</loc>
+    <lastmod>2023-12-12T04:31:19.655Z</lastmod>
   </url>
 </urlset>

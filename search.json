@@ -1,5 +1,12 @@
 [
   {
+    "objectID": "posts/welcome/index.html",
+    "href": "posts/welcome/index.html",
+    "title": "Welcome",
+    "section": "",
+    "text": "What you can expect\nI intend this blog to be mostly a technical blog on my journey through the rest of my career. You can expect to see articles about topics in Machine Learning, .NET, C#, python and other technical topics.\nI’m not limiting the posts strictly technical topics. I have many other roles in my life besides being a software engineer and consultant. I’m a father of three, I’m a husband, I run, I build things, I fix things, I break things, I like cars the list goes on. You might see these things sprinkled in."
+  },
+  {
     "objectID": "posts/2023-10-31/index.html",
     "href": "posts/2023-10-31/index.html",
     "title": "Installing Python and starting a project using Jupyter Notebooks",
@@ -11,7 +18,7 @@
     "href": "index.html",
     "title": "Emil Bsaibes",
     "section": "",
-    "text": "Installing Python and starting a project using Jupyter Notebooks\n\n\n\n\n\n\n\npython\n\n\njupyter\n\n\ngetting started\n\n\n\n\n\n\n\n\n\n\n\nOct 31, 2023\n\n\n\n\n\n\n  \n\n\n\n\nWelcome\n\n\n\n\n\n\n\nnews\n\n\n\n\n\n\n\n\n\n\n\nSep 27, 2023\n\n\n\n\n\n\nNo matching items"
+    "text": "Working From Home - Routines - Physical Activity\n\n\n\n\n\n\n\nworklife\n\n\nhabits\n\n\nrunning\n\n\n\n\n\n\n\n\n\n\n\nDec 11, 2023\n\n\n\n\n\n\n  \n\n\n\n\nInstalling Python and starting a project using Jupyter Notebooks\n\n\n\n\n\n\n\npython\n\n\njupyter\n\n\ngetting started\n\n\n\n\n\n\n\n\n\n\n\nOct 31, 2023\n\n\n\n\n\n\n  \n\n\n\n\nWelcome\n\n\n\n\n\n\n\nnews\n\n\n\n\n\n\n\n\n\n\n\nSep 27, 2023\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "about.html",
@@ -21,10 +28,17 @@
     "text": "I’m a dad, husband, runner, handyman and engineer.\nI’ve been a software engineer for over 12 years. My career started in semiconductor manufacturing where I developed and maintained manufacturing automation systems. Eventually I found my way into software consulting.\nI’ve worked on several .NET projects in a variety of industries and varying solution type. Some projects highlights include building and improving web applications, developing identity solutions, event-based systems, modernizing systems, and data engineering.\nAway from my keyboard, you’ll usually find me running, hanging out with my family, fixing things around the house, and building things."
   },
   {
-    "objectID": "posts/welcome/index.html",
-    "href": "posts/welcome/index.html",
-    "title": "Welcome",
+    "objectID": "posts/2023-12-11/index.html",
+    "href": "posts/2023-12-11/index.html",
+    "title": "Working From Home - Routines - Physical Activity",
     "section": "",
-    "text": "What you can expect\nI intend this blog to be mostly a technical blog on my journey through the rest of my career. You can expect to see articles about topics in Machine Learning, .NET, C#, python and other technical topics.\nI’m not limiting the posts strictly technical topics. I have many other roles in my life besides being a software engineer and consultant. I’m a father of three, I’m a husband, I run, I build things, I fix things, I break things, I like cars the list goes on. You might see these things sprinkled in."
+    "text": "Although I love working from home, it’s taken some time to develop a routine to help keep me focused and provide some boundaries between work and home life. In the following series I’ll describe my routines that are key to a healthy mindset and productive day.\nSome of the routines and habits I’ve developed are flexible and some are less so.The first and probably most important parts of my day are running and strength training."
+  },
+  {
+    "objectID": "posts/2023-12-11/index.html#current-iteration-of-my-workout-schedule",
+    "href": "posts/2023-12-11/index.html#current-iteration-of-my-workout-schedule",
+    "title": "Working From Home - Routines - Physical Activity",
+    "section": "Current iteration of my workout schedule",
+    "text": "Current iteration of my workout schedule\n\n\n\nDay of Week\nWorkout\n\n\n\n\nMonday\nMorning: Weight lift (Legs)  Afternoon: Run\n\n\nTuesday\nMorning: Weight lift (Chest)  Afternoon: Run\n\n\nWednesday\nMorning: Weight lift (Back)  Afternoon: Run\n\n\nThursday\nMorning: Weight lift (Shoulders)  Afternoon: Run\n\n\nFriday\nMorning: Weight lift (Arms)  Afternoon: Run\n\n\nSaturday\nRest\n\n\nSunday\nLong Run"
   }
 ]
