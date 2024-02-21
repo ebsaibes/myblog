@@ -2,7 +2,7 @@
 title: "Daily Routines - Physical Activity"
 date: "2023-12-11"
 title-block-style: default
-categories: [worklife, habits, running]
+categories: [daily routines, worklife, habits, running]
 ---
 
 # Daily Routines Series
