@@ -1,0 +1,63 @@
+---
+title: "Virtual Environments for Sanity"
+date: "2024-03-30"
+title-block-style: default
+categories: [python, tooling, dependencies]
+format: 
+    html:
+        code-block-bg: true
+---
+
+I've programmed in python for fun on and off for the past few years. Learning the language itself wasn't difficult. What can be frusterating is learning the tooling around the language. New languages can involve a different IDE, new libraries, new package managers, etc. it's like entering a new world OR a new environment ;) And coming from a .NET background a lot of package management is baked into Visual Studio.  
+
+When I started writing in python, I just wanted to get something running. It wasn't some huge or serious project just something fun or quick. One concept I wish I paid attention to was python's virtual environments. This would have saved so much frustration. As python wasn't my day to day language actually highlighted the need for it. Since there would be sometimes months between working a particular side project, I'd come back update my packages or python and instead of trying out my new idea I ended up creating a problem. A broken app I'd have to go and fix before moving forward. FRUSTRATION. 
+
+Experience is the best teacher!
+
+Enter python virtual environments! Don't learn the hard way and experience the same pain I did. Use virtual environments and save yourself some pain. 
+
+# What are Virtual Environments 
+
+In python a virtual environment is a collection of package depenendencies, binaries and python interpreters which are isolated from the operating systems python installation and other projects. 
+
+The virtual environment is a director that you create which mimics the python base installation structure. The folder will either point to the system's python interpreter or link to it. It also contains packages that you install while its activated. 
+
+Before you start a new project setting up first can save you a heap of trouble and will help you isolate and manage your project dependencies.  
+
+# Setting up an venv
+Here's basic folder structure for a project. The .venv directory gets created goes in the root of the project. It should not be checked into the your source control system. It'll need to be created when the repository is cloned. Here's how to setup your project's virtual environment for the first time.
+
+Your project directory might look something like this
+```
+project-root \ 
+| src \ 
+```
+
+First navigate to your root project
+```{code-block-background: true}
+$ cd project-root
+```
+
+Once in your root all you need to do to initialize the environment is:
+```
+$ python -m venv ./venv
+```
+The last part of the command - ie the argument to venv command is the name of the venv directory. Conventially its named 'venv' or '.venv'
+
+To activate the environment (from the root of the project):
+```
+$ ./venv/Scripts/activate
+```
+
+At this point packages can be installed without causing conflicts with other projects. 
+
+
+
+
+
+
+
+
+# Reference
+
+[Official Python Docs - venv](https://docs.python.org/3/library/venv.html)
