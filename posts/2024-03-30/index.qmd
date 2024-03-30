@@ -8,47 +8,46 @@ format:
         code-block-background: true
 ---
 
-I've programmed in python for fun on and off for the past few years. Learning the language itself wasn't difficult. What can be frusterating is learning the tooling around the language. New languages can involve a different IDE, new libraries, new package managers, etc. it's like entering a new world OR a new environment. 
+I've programmed in python on and off for fun the past few years. Learning the language itself wasn't difficult. What can be frustrating when learning a new language is the tooling. New languages can involve a different IDE, new libraries, new package managers, etc. it's like entering a new world OR a new environment 😜.
 
-When I started writing in python, I just wanted to get something running. It wasn't some huge or serious project just something fun or quick. One concept I wish I paid attention to was python's virtual environments. This would have saved so much frustration. At times there'd be several weeks or months between working on a project. I'd come back update my packages or python itself and instead of trying out my new idea I ended up creating a problem. My app that was previously working would break because of the updated dependencies. Instead of moving forward with something, I'd end up fixing the app or my system environment and moving forward. 
+When I started writing in python, I just wanted to get something running. It wasn't some huge or serious project, just something fun or quick. A concept I missed initially was virtual environments. Using them would have saved so much frustration. At times there'd be several weeks or months between working on a project. I'd come back update my packages or python itself and instead of trying out my new idea, I ended up creating a problem. The updates broke my app. Instead of moving forward with something, I'd end up fixing the app or my system environment 😦.
 
-The virtual enviornment would have saved all this frusterating work. Setting up a virtual environment and using it would have saved me all the frustration. 
+# What are Virtual Environments
 
-# What are Virtual Environments 
+A virtual environment (venv for short) is a collection of package dependencies, binaries and python interpreters which are isolated from the operating system's python installation and other projects.
 
-A virtual environment is a collection of package depenendencies, binaries and python interpreters which are isolated from the operating systems python installation and other projects. 
+The virtual environment directory mimics the python base installation and typically created in the project root directory. The folder will either point to the system's python interpreter or links to it. It also contains packages that you install while it's activated.
 
-The virtual environment is a directory that you create which mimics the python base installation structure. The folder will either point to the system's python interpreter or link to it. It also contains packages that you install while its activated. 
+Before writing the first line of code for a project, start by setting up the venv. It'll save you a ton of trouble and will help isolate and manage project dependencies.
 
-Before you start a new project setting up first can save you a heap of trouble and will help you isolate and manage your project dependencies. It helps keep your project consistent and reduces dependency issues between your system, and other projects. 
-
-For a deeper dive on how it works check out the [docs](https://docs.python.org/3/library/venv.html#how-venvs-work).
-
+For a deeper dive on how it works check out the [official docs](https://docs.python.org/3/library/venv.html#how-venvs-work).
 
 # Setting up an venv
+
 Here's basic folder structure for a project. The .venv directory gets created goes in the root of the project. It should not be checked into the your source control system. It'll need to be created when the repository is cloned. Here's how to setup your project's virtual environment for the first time.
 
 Your project directory might look something like this
 
-```{.markdown code-copy="false"}
+``` {.markdown code-copy="false"}
 project-root \ 
 | src \ 
 ```
 
 First navigate to your root project
 
-```powershell
+``` powershell
 $ cd project-root
 ```
 
 Once in your root all you need to do to initialize the environment is:
 
-```powershell
+``` powershell
 $ python -m venv ./venv
 ```
-The last part of the command - ie the argument to venv command is the name of the venv directory. Conventially its named 'venv' or '.venv'. After executing it your project directory will look like this:
 
-```{.markdown  code-copy="false"}
+The last part of the command - ie the argument to venv command is the name of the venv directory. Conventially its named 'venv' or '.venv'. After executing it, your project directory will look like this:
+
+``` {.markdown code-copy="false"}
 project-root \ 
 | src \ 
 | venv \
@@ -56,17 +55,17 @@ project-root \
 
 To activate the environment (from the root of the project):
 
-```powershell
+``` powershell
 $ ./venv/Scripts/activate
 ```
 
-At this point packages can be installed without causing conflicts with other projects. As you install dependencies you can extract them and save to a file by running:
+At this point packages can be installed without causing conflicts with other projects. As you install dependencies you can extract them and save to a file by running `pip freeze`:
 
-```powershell
+``` powershell
 pip freeze > requirements.txt
 ```
-Add the file to your code repository. Then other developers can recreate the venv easily. Once the venv is created run ```pip install -r requirements ``` to install all the packages in the requirements.txt file. 
 
+Add the `requirements.txt` file to your code repository. The packages in the virtual environment can simply be installed by running `pip install -r requirements` .
 
 # Reference
 
